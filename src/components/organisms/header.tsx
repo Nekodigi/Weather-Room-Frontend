@@ -1,10 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
+import { WeatherContext, WeatherContextProps } from "../../contexts/weather";
 import { WeatherData, WeatherIndicator } from "../../types/weather";
 import { HeaderView } from "./headerView";
 
 export const Header = () => {
   const calledOnce = useRef(false);
-  const [weatherIndicator, setWeatherIndicator] = useState<WeatherIndicator>();
+  const { indicator, setIndicator } = useContext(WeatherContext);
 
   const fetchUpdate = async () => {
     console.log(`${process.env.REACT_APP_API_URL}/indicator`);
@@ -12,7 +13,7 @@ export const Header = () => {
       await fetch(`${process.env.REACT_APP_API_URL}/indicator`)
     ).json();
     console.log(indicator);
-    setWeatherIndicator(indicator);
+    setIndicator(indicator);
   };
 
   useEffect(() => {
@@ -23,5 +24,5 @@ export const Header = () => {
     return;
   }, []);
 
-  return <HeaderView weatherIndicator={weatherIndicator} />;
+  return <HeaderView weatherIndicator={indicator} />;
 };

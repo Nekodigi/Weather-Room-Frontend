@@ -18,7 +18,9 @@ export const GraphSelector = (props: GraphSelectorProps) => {
     <ToggleButtonGroup
       value={graphType}
       exclusive
-      onChange={(e, str) => setGraphType(str)}
+      onChange={(e, str) => {
+        if (str != null) setGraphType(str);
+      }}
       aria-label="text alignment"
     >
       <ToggleButton value="temperature" aria-label="left aligned">
