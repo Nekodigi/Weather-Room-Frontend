@@ -1,6 +1,6 @@
 {
   "name": "weather-room-frontend",
-  "homepage": "https://nekodigi.github.io/Weather-Room-Frontend/",
+  "homepage": "https://weather.nekodigi.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

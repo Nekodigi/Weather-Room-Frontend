@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Weather-Room-Frontend/static/css/main.073c9b0a.css",
-    "main.js": "/Weather-Room-Frontend/static/js/main.3b0afde1.js",
-    "static/js/787.6511cbfd.chunk.js": "/Weather-Room-Frontend/static/js/787.6511cbfd.chunk.js",
-    "index.html": "/Weather-Room-Frontend/index.html",
-    "main.073c9b0a.css.map": "/Weather-Room-Frontend/static/css/main.073c9b0a.css.map",
-    "main.3b0afde1.js.map": "/Weather-Room-Frontend/static/js/main.3b0afde1.js.map",
-    "787.6511cbfd.chunk.js.map": "/Weather-Room-Frontend/static/js/787.6511cbfd.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.9a618ae9.js",
+    "static/js/787.6511cbfd.chunk.js": "/static/js/787.6511cbfd.chunk.js",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.9a618ae9.js.map": "/static/js/main.9a618ae9.js.map",
+    "787.6511cbfd.chunk.js.map": "/static/js/787.6511cbfd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3b0afde1.js"
+    "static/js/main.9a618ae9.js"
   ]
 }
